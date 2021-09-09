@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Pedrito</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="formulario.js"></script>
+</head>
+<body>
+    <form class="form-register" id="target" method="POST">
+        <h1>HACER PEDIDO</h1>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre del cliente" required><p>
+        <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido del cliente" required><p>
+        <input class="controls" type="number" name="cedula" id="cedula" placeholder="Numero de cedula" required><p>
+        <input type="text" name="mesa" id="mesa" class="controls" placeholder="Mesa del cliente" required><p>
+        <p>Servicios</p>
+        <select class="controls" name="servicio" id="servicio" >
+            <option class="op" value="">Indique Tipo de Servicio</option>
+            <option class="op" value="Comer en el restaurante">Comer en el restaurante</option>
+            <option class="op" value="Para llevar">Para llevar</option>
+
+        </select>
+        <p>Platillo:</p>
+        <select class="controls" name="plato" id="plato">
+            <option class="op" value="">Seleccione un menú</option>
+            <option class="op" value="Arroz con Pollo">Arroz con Pollo</option>
+            <option class="op" value="Escabeche">Escabeche</option>
+            <option class="op" value="Tallarin Verde">Tallarin Verde</option>
+            <option class="op" value="Pescado Frito">Pescado Frito</option>
+            <option class="op" value="Aji de Gallina">Aji de Gallina</option>
+            <option class="op" value="Lomo Saltado">Lomo Saltado</option>
+        </select>
+        <input class="controls" type="number" name="cantidad" id="cantidad" placeholder="Indique cantida" required>
+        <input  type="submit" class="botons" value="Enviar" name="registrar" onclick="registro()">
+    </form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+    background: radial-gradient(at top, rgb(107, 212, 238), rgb(132, 213, 238));
+    background-attachment: fixed    
+}
+.bg-light {
+    background-color: #f8f9fa3b!important;
+}
+.bg-gradiente{
+    background: linear-gradient(-45deg,red,yellow);
+}
+h1,h2,h3,h4,.nav-link{
+    font-family:  "Cooper Std Black";
+    color: #471ac4
+}
+h1{
+    -webkit-text-stroke: 2px rgb(204, 185, 9);
+    color: #b90808;
+}
+h5
+{
+    -webkit-text-stroke: 2px rgb(20, 18, 2);
+    color: #0f0101;
+    padding: 0;
+    text-align: center;
+}
+.btn-rocoto{
+    position:absolute;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(115, 255, 0),rgb(18, 131, 146)), radial-gradient(rgb(0, 4, 255), white);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    color: white
+}
+.btn-rocoto:hover{
+    text-decoration: none;
+    color: rgb(211, 28, 15);
+}
+.btn-rocoto span{
+    padding: 7px 40px;
+    display: block
+}
+.form-control{
+    border-color:rgb(37, 156, 21)
+}
+.button
+{
+    color: black;
+    font-size: 20px;
+}
+.sociales
+{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sociales li
+{
+    display: inline-block;
+}
+.sociales a
+{
+    padding: 10px;
+}
